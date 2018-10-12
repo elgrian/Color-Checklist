@@ -106,7 +106,7 @@ def test():
 
     test()
 
-    # running = True
-    # while running:
-    #     selection = user_input("Press C to add to list, R to Read from list and P to display list: ")
-    #     running = select(selection)
+    running = True
+    while running:
+        selection = user_input("Press C to add to list, R to Read from list and P to display list: ")
+        running = select(selection)
